@@ -1,4 +1,4 @@
-# openxg
+# readfile
 
 
 ## 安装python3.7.3
@@ -34,7 +34,7 @@
 
 ## git 
 1. cd /mnt
-2. git clone http://git.opensource5g.org/unicom-nwdaf/read-file.git
+2. git clone https://github.com/qxqxq/read-file.git
 
 ## docker 启动
 
