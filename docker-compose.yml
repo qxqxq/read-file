@@ -1,0 +1,10 @@
+version: "3"
+services:
+  read-file:
+    container_name: read-file
+    restart: always
+    # 镜像不存在就build生成镜像，存在就不在build，从镜像创建容器
+    image: read-file:v1.0.0
+    build:
+      context: .
+      dockerfile: Dockerfile
